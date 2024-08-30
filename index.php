@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" style="overflow: hidden;">
         <!-- navbar -->
         <?php require('includes/navbar.php') ?>
 
@@ -47,7 +47,7 @@
                                 This is a concert event you won’t want to miss!
                             </p>
                         </div>
-                        <a href="" class="button">Get Ticket</a>
+                        <a href="#ticket" class="button">Get Ticket</a>
                     </div>
                     <div class="album">
                         <div class="judul-album">
@@ -77,15 +77,16 @@
                 </div>
             </div>
             <hr>
+            <?php require('includes/howtoorder.php') ?>
             <!-- About -->
             <?php require('includes/about.php') ?>
             <hr>
             <!-- ticket -->
             <?php include("includes/ticket.php"); ?>
-
+            <hr>
             <!-- layout -->
             <?php include("includes/layout.php"); ?>
-
+            <hr>
             <!-- gallery -->
             <?php include("includes/galery.php"); ?>
             <?php include("includes/footer.php"); ?>

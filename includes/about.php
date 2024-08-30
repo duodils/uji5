@@ -1,4 +1,4 @@
-<div class="" id="about">
+<div class="" id="about" style="padding-top: 80px; padding-bottom: 40px;">
     <div class="about">
         <img src="assets/images/image.png" alt="" class="foto-about">
         <div class="content-about">

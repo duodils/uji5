@@ -327,7 +327,7 @@ html{
     font-weight: 800;
     letter-spacing: 4px;
     border-bottom: yellow 2px solid;
-    width: 350px;
+    width: 400px;
 }
 
 .about .content-about .content1 h1{
@@ -364,4 +364,27 @@ html{
     background-color: purple;
     color: white;
     margin: 0 30px;
+}
+
+/* modal */
+
+.modal{
+    position: fixed;
+    display: none;
+    top: 0;
+    background-color: rgb(0, 0, 0,0.5);
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    justify-content: center;
+    align-items: center ;
+}
+.modal-content {
+    background-color: #fff;
+    border-radius: 5px;
+    /* width: 100%; */
+    max-width: 900px;
+    position: relative;
+    padding : 20px;
 }
