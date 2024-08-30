@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
 </head>
 
 <body>
@@ -29,7 +31,7 @@
                 </div>
             </div>
         </div>
-        <div class="c" style="background-color: white;">
+        <div class="c" style="background-color: white; position: relative ; padding-top: 10px;">
             <div class="subhome">
                 <div class="content1">
                     <div class="deskripsi">
@@ -76,18 +78,17 @@
             </div>
             <hr>
             <!-- About -->
-            <?php require ('includes/about.php')?>
+            <?php require('includes/about.php') ?>
             <hr>
             <!-- ticket -->
-
+            <?php include("includes/ticket.php"); ?>
 
             <!-- layout -->
-
+            <?php include("includes/layout.php"); ?>
 
             <!-- gallery -->
-
-
-            <!-- footer -->
+            <?php include("includes/galery.php"); ?>
+            <?php include("includes/footer.php"); ?>
         </div>
     </div>
     <script src="assets/js/main.js"></script>

@@ -1,0 +1,9 @@
+*{
+    font-family: 'Montserrat';
+}
+ul{
+    list-style: none;
+}
+.f{
+ display: flex;
+}
