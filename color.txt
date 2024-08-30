@@ -1,0 +1,3 @@
+ungu = 250043
+orange DIAB34
+ungu gelap = 0f001B
