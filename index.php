@@ -88,6 +88,7 @@
             <!-- gallery -->
             <?php include("includes/galery.php"); ?>
             <?php include("includes/footer.php"); ?>
+            <?php include ("includes/merch.php"); ?>
         </div>
     </div>
     <script src="assets/js/main.js"></script>
