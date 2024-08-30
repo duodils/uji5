@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Alumni';
+    src: url('../font/AlumniSansInlineOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'Karantina';
+    src: url('../font/Karantina-Regular.ttf');
+}
+@font-face {
+    font-family: 'League';
+    src: url('../font/LeagueSpartan-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Lusitana';
+    src: url('../font/Lusitana-Regular.ttf');
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik-VariableFont_wght.ttf');
+}
+
+body,
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    padding: 0 20px;
+}
+
+.nav .logo{
+    width: 100px;
+    height: auto;
+}
+
+.nav .user{
+    width: 40px;
+    height: auto;
+}
+
+.menu-icon{
+    font-size: 30px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+.ul-item{
+    display: flex;
+    gap: 120px;
+    font-family: 'Lusitana', serif;
+}
+
+.ul-item li{
+    list-style: none;
+}
+
+.ul-item li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* HOME */
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    gap: 110px;
+    z-index: -1;
+    position: relative;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.bg-home{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    filter: brightness(0.6);
+}
+
+.foto-home{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.foto-home .foto-bruno{
+    max-width: 700px;
+    min-width: 550px;
+    top: 300px;
+    position: relative;
+}
+
+.content-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.content-home .subtitle{
+    font-family: 'League', serif;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 1rem;
+    color: yellow;
+    line-height: 0.0;
+}
+
+.content-home .title{
+    font-family: 'Karantina';
+    font-weight: 900;
+    font-size: 8rem;
+    color: white;
+    letter-spacing: 5px;
+    line-height: 0.0;
+}
+
+.content-home .location{
+    font-family: 'League';
+    font-size: 28px;
+    color: white;
+    border-bottom: yellow 1px solid;
+    letter-spacing: 1rem;
+}
+
+.content-home .informasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 270px;
+}
+
+.content-home .informasi p{
+    color: white;
+    font-family: 'League';
+    font-size: 25px;
+    letter-spacing: 1rem;
+}
+
+/* SUBHOME */
+
+.subhome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 80px;
+}
+
+.subhome .content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+    font-family: 'Montserrat', serif;
+}
+
+.subhome .content1 div{
+    width: 90%;
+    
+}
+
+.subhome .content1 div h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: purple;
+}
+
+.subhome .content1 div p{
+    font-size: 18px;
+}
+
+.subhome .content1 .button{
+    padding: 20px 30px;
+    border: yellow 1px solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+.subhome .album{
+    display: flex;
+    margin-right:50px;
+}
+.subhome .album .judul-album{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-family: 'League';
+    font-weight: 900;
+    gap: 20px;
+    width: 70px;
+    color: rgb(228, 143, 17);
+}
+
+.subhome .album .foto-album{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    margin: 10px;
+}
+
+.subhome .album .foto-album .satu{
+    width: 150px;
+    margin-left: 10px;
+}
+.subhome .album .foto-album .dua{
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 20px ;
+}
+.subhome .album .foto-album .tiga{
+    width: 150px;
+}
+.subhome .album .foto-album .empat{
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+
+.content2 .foto-bruno img{
+    height: 400px;
+    object-fit: cover;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: #a7a7a7 20px -20px;
+}
+
+.content2 .deskripsi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    margin-right: -110px;
+    font-family: 'Montserrat', serif;
+}
+
+.content2 .deskripsi h3{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 0.0;
+    color: rgb(26, 6, 26);
+}
+
+.content2 .deskripsi p{
+    letter-spacing: 2px;
+    line-height: 0.0;
+}
+
+.content2 .deskripsi h1{
+    font-size: 5.5rem;
+    font-weight: 900;
+    background-image: url('../images/tim.jpg');
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+/* ABOUT */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+    gap: 50px;
+    font-family: 'League';
+}
+
+.about .foto-about{
+    width: 400px;
+    height: 500px;
+}
+
+.about .content-about .content1{
+    border-bottom: black 1px solid;
+}
+
+.about .content-about .content1 h2{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border-bottom: yellow 2px solid;
+    width: 350px;
+}
+
+.about .content-about .content1 h1{
+    font-weight: 900;
+    color: rgb(31, 2, 31);
+    font-size: 50px;    
+}
+
+.about .content-about .content1 .more{
+    display: flex;
+    width: 900px;
+    gap: 120px;
+    font-size: 20px;
+}
+
+.about .content-about .content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about .content-about .content2 h1{
+    text-align: center;
+    justify-content: center;
+}
+
+.about .content-about .content2 .info-more{
+    gap: 130px;
+}
+
+.about .content-about .content2 .info-more button{
+    padding: 10px 40px;
+    border: 0;
+    background-color: purple;
+    color: white;
+    margin: 0 30px;
+}
