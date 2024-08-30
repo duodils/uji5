@@ -1,5 +1,5 @@
 <div style="background-color: #250043; width: 100vw; height: 300px;">
-    <div style=" margin: 20px 120px; display: flex; justify-content:space-between;  align-items: center;">
+    <div style=" margin: 0px 120px; display: flex; justify-content:space-between;  align-items: center;">
         <img style="width: 250px;" src="assets/images/logo.png" alt="">
         <ul style="color: #fff;">
             <h3 style="margin: 10px 0; font-size: 30px">Navigation</h3>
